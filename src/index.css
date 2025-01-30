@@ -1,0 +1,32 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  background-color: #f1f1f1;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.transaction-card {
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px #aaa;
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.positive {
+  /* border: color 3px Green; */
+  border-right: 3px solid green;
+}
+
+.negative {
+  border-color: red;
+  border-right-style: solid;
+}
